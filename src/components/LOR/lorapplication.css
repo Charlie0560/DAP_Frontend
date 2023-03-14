@@ -1,0 +1,12 @@
+.lorapplication{
+    height: 60vh;
+    overflow-y: scroll;
+    width: 50%;
+    outline: 0px;
+    border: none;
+}
+
+.examname{
+    display: flex;
+    justify-content: space-between;
+}

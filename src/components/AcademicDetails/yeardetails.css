@@ -1,0 +1,67 @@
+.yeardetails_header{
+    background-color: whitesmoke;
+    height: max-content;
+    padding: 15px;
+    width: auto;
+    padding-inline: 2%;
+}
+.yeardetails{
+    padding-inline: 3%;
+}
+.yeardetails_form{
+    padding-inline: 20px;
+    padding-bottom: 3%;
+    /* background-color: black; */
+}
+.form_fields{
+    height: max-content;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    /* align-items: center; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.outlined-basic1{
+    height: 20px;
+}
+.fileupload{
+    margin-top: 0%;
+}
+#outlined-btn{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btndiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+@media (max-width:600px) {
+    .form_fields{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        row-gap: 10px;
+        margin-top: 10px;
+        
+    }
+    .btndiv{
+        display: inline;
+        text-align: center;
+        
+    }
+    #outlined-btn {
+        margin-top: 5px;
+    }
+    .yeardetails{
+        margin-top: 5%;
+    }
+    
+}

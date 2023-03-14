@@ -1,0 +1,136 @@
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
+}
+.intern {
+  width: max-content;
+}
+.intern1 {
+  display: flex;
+  /* margin-left: 50px; */
+  width: max-content;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+#outlined-btn {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* student internship dashboard styling */
+
+.studentInternshipDashboard {
+  padding-inline: 2%;
+  margin-top: 3%;
+}
+
+.internship_data_header {
+  font-size: 25px;
+  font-weight: 600;
+}
+.dataheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 5%;
+}
+.internshipform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submitbtndiv {
+  margin-top: 5%;
+}
+
+/* internship boxes */
+
+.internship_boxes {
+  padding-inline: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.boxtop {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2%;
+}
+.box {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 1%;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 2%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: whitesmoke;
+}
+.box_desc {
+  padding-inline: 2%;
+}
+
+.editbtndiv {
+  width: 99%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+.editbtn {
+  background-color: #1a4870;
+  /* padding-right: 5%; */
+}
+.company_name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.duration_date {
+  font-size: 17px;
+  font-weight: 500;
+}
+.boxmodal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 2%;
+}
+.boxmodal .forminput{
+  /* height: 40px; */
+  margin-bottom: -12px;
+}
+
+@media (max-width: 600px) {
+  .dataheader {
+    margin-top: 8%;
+  }
+  .box {
+    width: 92%;
+    padding: 3%;
+    margin-bottom: 8%;
+  }
+  .boxtop {
+    flex-direction: column;
+  }
+  .internship_boxes {
+    margin-top: 8%;
+  }
+  .boxmodal {
+    width: 90%;
+  }
+  .editbtndiv {
+    margin-top: 20px;
+    justify-content: space-between;
+    column-gap: 3px;
+  }
+  
+}

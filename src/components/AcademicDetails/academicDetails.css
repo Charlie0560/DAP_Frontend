@@ -1,0 +1,16 @@
+.years .year {
+  cursor: pointer;
+  color: black;
+}
+.years a  {
+  text-decoration: none;
+}
+.academic_years {
+  margin-top: 2%;
+}
+.uploadmarksheet {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  column-gap: 3px;
+}

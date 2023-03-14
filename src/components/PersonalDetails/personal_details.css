@@ -1,0 +1,186 @@
+.personal_details_dashboard{
+    padding-inline: 2%;
+    margin-top: 2%;
+}
+.react-pdf__Page__canvas {
+    margin: 0 ;
+    width: 100% !important;
+    height: 100% !important;
+}
+.details_header{
+    background-color: whitesmoke;
+    height: max-content;
+    padding: 10px;
+    width: auto;
+    padding-inline: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details_body{
+    padding-inline: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+}
+.imgsection{
+    /* background-color: black; */
+    width: 30%;
+    /* display: flex; */
+}
+.img{
+    height: 200px;
+    width: 200px;
+    overflow-y: hidden;
+}
+.imgsection .img,
+.img img{
+    width: 200px;
+    /* height: min-content; */
+    height: 200px;
+    border-radius: 50%;
+    
+    
+}
+.addimgbtn{
+    margin-top: 10px;
+}
+
+.details_section{
+    /* background-color: black; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.parents_details{
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.address_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0%;
+}
+.address_details .forminput{
+    width: 49%;
+    
+}
+.tenth_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+}
+.tenth_details .forminput{ 
+    width: 25%;
+}
+
+.tenth_twelth_marksheet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5%;
+}
+.pdfbox{
+    width: max-content;
+    position: relative;
+    max-height: 80vh;
+    
+    overflow: scroll;
+}
+.change_page_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.change_page_div p{
+    cursor: pointer;
+}
+.direction{
+    background-color: gray;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.interesteddomains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+@media (max-width: 868px) {
+    .pdfbox{
+        max-height: auto;
+        width: auto;
+    }
+    .details_body{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .imgsection,
+    .details_section{
+        width: 100%;
+    }
+    .forminput{
+        width: 250px;
+    }
+    .imgsection{
+        margin-top: 5%;
+    }
+    .parents_details{
+        padding-left: 0%;
+        padding-top: 2%;
+    }
+    .address_details .forminput{
+        width: 100%;
+        
+    }
+}
+
+@media (max-width:600px) {
+    .details_body{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgsection,
+    .details_section{
+        width: 100%;
+    }
+    .forminput{
+        width: 100%;
+    }
+    .imgsection{
+        margin-top: 5%;
+    }
+    .tenth_details .forminput{
+        width: 100%;
+        margin-top: 5%;
+        
+    }
+    .tenth_details{
+        flex-direction: column;
+
+    }
+    .tenth_twelth_marksheet {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .pdfbox{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .boxmodal{
+        height: max-content;
+    }
+    .change_page_div{
+    /* margin-top: -10%; */
+    }
+}

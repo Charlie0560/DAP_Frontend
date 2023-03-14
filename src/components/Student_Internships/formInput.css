@@ -1,0 +1,36 @@
+.forminput {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+label {
+  font-size: 15px;
+  color: gray;
+}
+.textarea{
+  border-radius: 5px;
+}
+/* .offerbtn{
+  width: ;
+} */
+.offerbtn{
+  max-width: 200px;
+}
+
+.dateforminput input{
+  background-color: white;
+  /* color: black; */
+}
+@media (max-width:600px) {
+  .dateforminput input{
+    width: 290px;
+  }
+  
+}

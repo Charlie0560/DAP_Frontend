@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  /* max-height: 100%; */
+  font-family: 'Poppins', sans-serif;
+
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* height: 100vh; */
+  background-image: url("https://s3.ap-south-1.amazonaws.com/vmedulife-s3/logo/12-09-2021-BANNER-77-1631415861.jpeg");
+  /* background-image: url("./bgim.jpeg"); */
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+@media (max-width:600px) {
+  .app{
+    background: none;
+    background-image: none;
+    justify-content: center;
+  }
+}

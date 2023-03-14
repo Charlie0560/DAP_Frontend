@@ -1,0 +1,21 @@
+.t_dashboard{
+    padding-inline: 4%;
+    margin-top: 1%;
+}
+.search_filters{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.css-f3jnds-MuiDataGrid-columnHeaders{
+    background-color: whitesmoke;
+}
+@media (max-width:600px) {
+    .search_filters{
+        flex-direction: column;
+        width: 100%;
+        row-gap: 5px;
+    }
+}

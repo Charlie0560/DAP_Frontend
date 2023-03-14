@@ -1,0 +1,139 @@
+.mrugank{
+  /* padding: ; */
+  /* border-radius: 4px; */
+  height:max-content;
+   /* border: 1px solid black; */
+   /* margin-top: 3rem; */
+   background-color: whitesmoke;
+   color: darkslategray;
+}
+.mrugank0{
+    /* padding: ; */
+   /* border-radius: 4px; */
+   height:max-content;
+   /* border: 1px solid black; */
+   /* margin-top: 3rem; */
+   background-color: whitesmoke;
+   color: darkslategray;
+
+}
+.mrugank1{
+   /* padding: ; */
+   /* border-radius: 4px; */
+   height:max-content;
+    /* border: 1px solid black; */
+    /* margin-top: 3rem; */
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+.mrugank2{
+   /* border-radius: 4px; */
+   height:max-content;
+    /* border: 1px solid black; */
+    /* margin-top: 3rem; */
+    background-color: whitesmoke;
+    color: darkslategray;
+
+}
+.mrugank5{
+   font-size: 15px;
+   font-weight: bold;
+
+}
+
+.formmrug{
+   /* width: 30rem; */
+   border-radius: 3px;
+}
+.formmrug2{
+   /* width: 30rem; */
+   border-radius: 3px;
+   display: flex;
+   flex-direction: column;
+}
+/* Textfield.label{
+   align-items: center;
+} */
+
+.lorboxes {
+   padding-inline: 2%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 2%;
+ }
+ .lorboxtop {
+   display: flex;
+   justify-content: space-between;
+   padding-inline: 2%;
+ }
+ .lorbox {
+   /* border: 1px solid black; */
+   border-radius: 10px;
+   padding: 1%;
+   width: 60%;
+   text-align: left;
+   margin-top: 11%;
+   margin-left: 2%;
+ 
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   background-color: whitesmoke;
+ }
+ .lorbox_desc {
+   padding-inline: 4%;
+ }
+ 
+ .editbtndiv {
+   width: 99%;
+   display: flex;
+   justify-content: flex-end;
+   column-gap: 20px;
+ }
+ .editbtn {
+   background-color: #1a4870;
+   /* padding-right: 5%; */
+ }
+ .lorboxmodal {
+   overflow: scroll;
+   scroll-behavior:auto;
+   height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   transform: translate(-50%, -50%);
+   background-color: whitesmoke;
+   border: 2px solid #000;
+   box-shadow: 24;
+   padding: 2%;
+ }
+ .lorboxmodal .forminput {
+   /* height: 40px; */
+   margin-bottom: -12px;
+ }
+ 
+ @media (max-width: 600px) {
+   .dataheader {
+     margin-top: 8%;
+   }
+   .lorbox {
+     width: 92%;
+     padding: 3%;
+     margin-bottom: 8%;
+   }
+   .lorboxtop {
+     flex-direction: column;
+   }
+   /* .internship_boxes {
+       margin-top: 8%;
+     } */
+   .a
+   {
+     width: 90%;
+   }
+   .editbtndiv {
+     margin-top: 20px;
+     justify-content: space-between;
+     column-gap: 3px;
+   }
+ }

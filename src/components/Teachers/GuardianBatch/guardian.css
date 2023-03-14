@@ -1,0 +1,48 @@
+.batchtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.addbatch{
+    /* padding: 2%; */
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+}
+.batches{
+    padding-inline: 20px;
+}
+
+.batchc{
+    margin-inline: 20px;
+}
+.bcompo{
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+    align-items: center;
+    column-gap: 20px;
+}
+.bcompo p i{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .addbatch{
+        flex-direction: column;
+        padding-inline: 20px;
+        margin-bottom: 5%;
+    }
+}

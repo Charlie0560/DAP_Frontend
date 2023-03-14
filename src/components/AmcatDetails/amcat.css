@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+
+}
+.Amcat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* width: 434px; */
+
+}
+.Amcat1{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 300px;
+}
+.button1,.button2{
+    
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    display: flex;
+    /* column-gap: 15px; */
+    justify-content: space-evenly;
+}
+.boxmodal12{
+    height: 70vh;
+    overflow-y: scroll;
+    width: fit-content;
+}
+
+.aboxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.abox1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
